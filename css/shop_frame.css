@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+#shop_frame{ width:360px; height:505px;}
+#shop_frame #main_bar{ width:360px; height:305px; position:relative; float:left; }
+#shop_frame #main_bar #bar1{ width:250px; height:95px; position:absolute; left:3px; top:5px; background:#ffcdab; background-image:url(../images/shopping.png);  -webkit-border-radius: 5px; -webkit-box-shadow:1px 1px 1px #999;}
+#shop_frame #main_bar #bar2{ width:100px; height:180px; position:absolute; left:256px; top:5px; background:#ffe487; background-image:url(../images/travel.png);  -webkit-border-radius: 5px; -webkit-box-shadow:1px 1px 1px #999;}
+#shop_frame #main_bar #bar3{ width:100px; height:190px; position:absolute; left:3px; top:103px; background:#ffbc72; background-image:url(../images/entertainment.png);  -webkit-border-radius: 5px; -webkit-box-shadow:1px 1px 1px #999;}
+#shop_frame #main_bar #bar4{ width:148px; height:82px; position:absolute; left:106px; top:103px; background:#b4e972; background-image:url(../images/meal.png);  -webkit-border-radius: 5px; -webkit-box-shadow:1px 1px 1px #999;}
+#shop_frame #main_bar #bar5{ width:251px; height:105px; position:absolute; left:106px; top:188px; background:#eaffbb; background-image:url(../images/record.png);  -webkit-border-radius: 5px; -webkit-box-shadow:1px 1px 1px #999;}
+#shop_list_frame{ width:360px; height:505px; display:none; float:left; overflow-y:scroll; overflow-x:hidden; background:#e5e5e5;  }
+#shop_list_frame .list{ width:360px; height:120px; background:#FFF; margin:0px 0px 1px 0px; position:relative; float:left; background-color:#123}
+#shop_list_frame .list .pic{ width:80px; height:100px; float:left; margin-left:10px; background-color:aaa}
+#shop_list_frame .list .pic img { width:59px; height:59px; margin:3px; -webkit-border-radius: 10px; }
+#shop_list_frame .list .info_rec{ width:270px; height:65px; float:left; margin-left:5px; }
+#shop_list_frame .list .info_rec .shop_name{ width:270px; height:35px; position:relative; float:left; }
+#shop_list_frame .list .info_rec .shop_name h1{ width:180px; height:24px; margin-top:11px; background:#FFF; font-weight:bold; font-size:20px; line-height:24px; float:left; overflow:hidden; }
+#shop_list_frame .list .info_rec .shop_name .date {width:90px; height:20px; margin-top:15px; color:#666; float:left; }
+#shop_list_frame .list .info_rec .shop_info{ width:270px; height:20px; position:relative; float:left; font-size:17px; font-weight:900; color:#575757; overflow:hidden; }
+
+#qidai{ font-size:18px; margin-top:10px; margin-left:10px; color:#505050; }

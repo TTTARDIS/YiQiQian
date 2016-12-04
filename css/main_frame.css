@@ -1,0 +1,82 @@
+@charset "utf-8";
+* { margin:0px; }
+body{ background-color:#000; overflow:hidden; overflow-x:hidden; font-family:"Microsoft YaHei";}
+#screen{ width:360px; height:615px; background:#FFF;}
+#main_slider{ margin:0; font-family:"微软雅黑"; border-right:1px solid #202020; width:250px; height:615px; position:absolute; left:0px; top:0px; display:none;}
+#main_screen{ width:360px; height:615px; background:#FFF; position:absolute; left:0px; top:0px; }
+#main_screen #header{ width:360px; height:50px; position:absolute; left:0px; top:0px; background:#f19149; }
+#main_screen #header #more_info{ width:50px; height:50px; position:absolute; left:0px; top:0px; }
+#main_screen #header #more_info img{ width:14px; height:14px; position:absolute; left:14px; top:18px; background:url(../images/push.png); display:none;}
+#main_screen #header #refresh { width:20px; height:20px; position:absolute; right:10px; top:8px; display:none;}
+#main_screen #header #refresh img{ width:20px; height:20px; position:absolute; right:10px; top:8px; }
+#main_screen #header #check{ width:50px; height:50px; position:absolute; right:0px; top:0px; background:url(../images/notcheck.png); display:none; }
+#main_screen #header h1{ width:360px; height:50px; position:absolute; left:0px; top:0px; color:#FFF; font-size:22px; font-weight:bold; line-height:50px; }
+#main_screen #footer{ width:360px; height:60px; position:absolute; left:0px; bottom:0px; background:#e5e5e5; }
+#main_screen #footer #tab_frame{ height:60px; width:360px; }
+#main_screen #footer #tab_frame #bar_frame{ width:360px; height:3px; float:left; }
+#main_screen #footer #tab_frame #bar_frame #bar{ width:90px; height:3px; background:#f19149; top:0px; left:90px; position:absolute; }
+#main_screen #footer #tab_frame #button_frame{ width:360px; height:57px; float:left; }
+#main_screen #footer #tab_frame #button_frame #button1{ width:90px; height:57px; float:left; position:relative; background:url(../images/map.png); }
+#main_screen #footer #tab_frame #button_frame #button2{ width:90px; height:57px; float:left; position:relative; background:url(../images/info_a.png); }
+#main_screen #footer #tab_frame #button_frame #button3{ width:90px; height:57px; float:left; position:relative; background:url(../images/shop.png); }
+#main_screen #footer #tab_frame #button_frame #button4{ width:90px; height:57px; float:left; position:relative; background:url(../images/more.png); }
+#main_screen .content{ width:360px; height:505px; position:absolute; left:0px; top:50px; }
+#main_screen .content #con1{ width:360px; height:505px; position:absolute; left:0px; top:0px; display:none; }
+#main_screen .content #con2{ width:360px; height:505px; position:absolute; left:0px; top:0px;}
+#main_screen .content #con3{ width:360px; height:505px; position:absolute; left:0px; top:0px; display:none; }
+#main_screen .content #con4{ width:360px; height:505px; position:absolute; left:0px; top:0px; display:none;}
+#map_frame{ width:360px; height:505px; }
+
+#screen_login{ width:360px; height:615px; position:absolute; left:0px; top:0px; z-index:99; background:#f0f0f0; }
+#login_username_rec{ width:300px; height:40px; position:absolute; left:30px; top:280px; border:0px; background:#fff; -webkit-border-radius:25px;}
+#login_username{ width:250px; height:40px; position:absolute; left:25px; top:0px; border:0px; }
+#login_password_rec{ width:300px; height:40px; position:absolute; left:30px; top:350px; border:0px; background:#fff; -webkit-border-radius:25px; }
+#login_password{ width:250px; height:40px; position:absolute; left:25px; top:0px; border:0px; }
+#login_button{ width:100px; height:30px; position:absolute; left:105px; top:420px; border:0px; background:#f19149; -webkit-border-radius:25px; font-size: 22px; color:white; line-height:25px;padding-left:50px;}
+#register_button{ width:100px; height:30px; position:absolute; left:105px; top:470px; border:0px; background:#f19149; -webkit-border-radius:25px; font-size: 22px; color:white; line-height:25px;padding-left:50px;}
+#screen_login img{ width:128px; height:126px; position:absolute; left:116px; top:90px; }
+
+#screen_register{ width:360px; height:615px; position:absolute; left:0px; top:0px; z-index:99; background:#f0f0f0; display:none; padding-top:50px; background:#f0f0f0;} 
+#screen_register label{ width:360px; height:60px; float:left; padding-left:15px; color:#252525; } 
+#screen_register input{ width:220px; height:30px; margin:0; position:absolute; left:80px;} 
+#screen_register select{ width:80px; height:30px; float:left; margin:auto; position:absolute; left:80px;}
+#screen_register #r_register_button{ width:100px; height:30px; position:absolute; left:105px;  background:#f19149; font-size:22px; color:white; line-height:25px; padding-left:50px; }
+
+#main_slider #cotainer{width:250px; margin:0; font-family:"微软雅黑"; border-right:1px solid #88888;}
+#main_slider #headers{width:250px; height:35px; padding-top:15px; padding-left:50px; background-color:#f19149; color:white; line-height:20px; font-size:20px; font-style:bold;}
+#main_slider #content{width:250px; height:485px; overflow-x:hidden; overflow-y:scroll;}
+#main_slider #footers{width:250px; height:80px; overflow-x:hidden; overflow-y:scroll; position:absolute;}
+#main_slider .title{width:240px; height:30px; margin-top:20px; padding-left:10px; font-size:20px; line-height:20px; border-bottom:solid 1px #e0e0e0; float:left; font-weight:bold;}
+#main_slider #heng{ width:250px; height:1px; border-top:#999 solid 1px; border-bottom:#999 solid 1px; margin-top:25px; float:left; }
+#main_slider .state{width:240px; margin-left:10px; margin-top:10px; height:auto;}
+#main_slider .state img{border:0; width:70px; height:70px; margin-top:10px; float:left;}
+#main_slider .state .wenzi{width:150px; height:auto; margin-left:10px; margin-top:5px; font-size:16px; line-height:20px; color:#303030; float:left;}
+#main_slider .state .time{width:90px; height:auto; margin-left:170px; font-size:10px; line-height:13px; color:#303030; float:left;}
+#main_slider #footers button{ width:80px; height:30px; margin-left:20px; margin-top:10px; border:0; float:left; position:relative; background-color:#f19149; color:white; font-size:20px;}
+#main_slider #footers p{margin:0;}
+#dialoger{ width:200px; height:125px; top:150px; left:80px; border:solid 1px; position:absolute; display:none; background-image:url(../images/dialog.png);}
+#dialoger p{ width:150px; color:#383838; font-size:15px; margin-top:35px; margin-left:20px;}
+#dialoger button{ width:90px; height:30px; margin-left:50px; border:0; float:left; background-color:#f19149; color:white; font-size:20px;}
+#peiban_input{ width:280px; height:330px; top:120px; left:40px; border:solid 1px #a0a0a0; position:absolute; display:none; background:white;}
+#peiban_input textarea{width:250px; height:250px; margin-top:15px; margin-left:14px; border:solid 1px #a0a0a0;}
+#peiban_input button{width:80px; height:35px; border:0; margin-left:25px; margin-top:20px; position:relative; background-color:#f19149; color:white; font-size:20px; float:left;}
+
+
+#invite_frame{margin:0; padding:0; width:360px; height:505px; display:none;overflow-x:hidden;overflow-y:scroll;}
+#invite_frame #user_brief{width:360px; height:100px; margin-top:20px; margin-left:80px;}
+#invite_frame #user_brief #pic{width:100px; height:100px; float:left;}
+#invite_frame #user_brief #info{width:100px; height:80px; margin-top:10px; margin-left:15px;line-height:25px; font-size:15px; float:left;} 
+#invite_frame #invite{width:360px;height:auto;margin-top:20px;margin-bottom:10px;}
+#invite_frame #invite #text{width:280px; height:auto; line-height:28px; font-size:22px; margin-left:40px;margin-bottom:10px}
+#invite_frame #invite #invite_time{width:180px; height:auto; float:right; line-height:15px; font-size:10px;}
+#invite_frame #dating{margin-top:30px; margin-left:10px; width:350px; height:auto; line-height:25px; font-size:18px; float:left;}	
+#invite_frame #history{margin-left:20px; width:360px; height:35px; line-height:28px; font-size:22px; display:block;}
+#invite_frame .history_record{width:330px; margin-top:15px; border-top:1px solid #999; float:left;}
+#invite_frame .history_record .record_time{width:330px; height:15px; float:left; font-size:12px;margin-bottom:10px;}
+#invite_frame .history_record .record_text{width:330px; height:auto; float:left; font-size:18px;}
+#invite_frame .history_record .record_num{width:330px; padding-left:150px; padding-right:0px; float:left; margin-bottom:10px; margin-right:0; font-size:15px;}
+button{width:100px;height:30px;line-height:20px;font-size:20px;margin-top:10px;margin-left:130px;border:0;background-color:#f19149;color:white;} 
+#fasong{margin-top:15px;margin-left:20px;color:#505050;display:none;float:left;}
+
+
+#images{width:360px; height:200px; overflow: hidden; position: relative;}

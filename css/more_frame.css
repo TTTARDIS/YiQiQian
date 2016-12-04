@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+#more_frame{ width:360px; height:505px; }
+#more_frame #more_list{width:360px; overflow-y:scroll; overflow-x:hidden; margin-top:0px;}
+#more_frame .more_button{ width:360px; height:65px; border-bottom:2px #e5e5e5 solid; position:relative; float:left; background:#FFF; }
+#more_frame .more_button .more_info{ width:250px; float:left; height:35px; margin:15px 0px 15px 0px; color:#999; font-weight:bold; font-size:24px; line-height:35px; float:left; }
+#more_frame #splicial_button{ width:360px; height:65px; border-bottom:5px #e5e5e5 solid; position:relative; float:left; background:#FFF; }
+#more_frame .more_button .icon_rec{ width:35px; height:35px; margin:15px; float:left; }
+#more_frame #splicial_button .icon_rec{ width:35px; height:35px; margin:15px; float:left; }
+#more_frame #splicial_button .more_info{ width:250px; float:left; height:35px; margin:15px 0px 15px 0px; color:#999; font-weight:bold; font-size:24px; line-height:35px; float:left; }
+
+#more_frame #user{ width:360px; margin:0; padding:0; overflow-y:scroll; overflow-x:hidden; background-color:#aaa; }
+
+#more_frame #more_message{ font-size:18px; margin-top:10px; margin-left:10px; color:#505050; }
+#more_frame #jifen{ width:360px; height:505px; margin:0; display:none;}

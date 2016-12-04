@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+#info_frame{ width:360px; height:505px;}
+#info_list{ width:360px; height:505px; overflow-y:scroll; overflow-x:hidden; background:#e5e5e5; }
+#info_list .list{ width:360px; height:120px; margin:0px 0px 1px 0px; position:relative; float:left; background:#FFF;}
+#info_list .list .pic{ width:100px; height:120px; float:left; margin-left:0 0 0 10px;}
+#info_list .list .pic img { width:90px; height:90px; margin-left:10px; margin-top:10px; -webkit-border-radius: 10px;}
+#info_list .list .info_rec{ width:250px; height:120px; float:left; margin-left:5px;}
+#info_list .list .info_rec .shop_name{ width:250px; height:35px; position:relative; float:left;}
+#info_list .list .info_rec .shop_name h1{ width:240px; height:24px; margin-top:11px; background:#FFF; font-weight:bold; font-size:20px; line-height:24px; float:left; overflow:hidden; }
+#info_list .list .info_rec .shop_info{ width:230px; height:40px; margin-top:10px; margin-left:10px; position:relative; float:left; line-height:20px; font-size:16px; font-weight:900; color:#575757; overflow:hidden; }
+#info_list .list .info_rec .num {width:150px; height:20px; margin-left:100px; margin-top:10px; line-height:12px; color:#666; float:right; }
+#info_message{ width:360px; height:505px; overflow-y:scroll; overflow-x:hidden; display:none; }
+#info_message #info_message_rec{ width:100%; position:relative; overflow-y:auto; overflow-x:hidden;}
+#info_message h1{ width:360px; height:36px; margin-top:30px; font-size:26px; font-weight:bold; line-height:36px; color:#939; float:left; }
+#info_message #heng{ width:320px; height:1px; border-top:#999 solid 1px; border-bottom:#999 solid 1px; margin:10px 20px 10px 20px; float:left; }
+#info_message p { width:310px; margin-top:10px; margin-left:25px; margin-bottom:0px; color:#666; font-size:18px; font-weight:700; float:left; text-indent:1em; }
+#info_message img{ width:260px; height:180px; margin-top:15px; margin-left:50px; float:left; }
+
+#info_message #sign_num{ width:360px; height:30px; margin-top:20px; font-size:20px; font-weight:bold; line-height:20px; color:#f19149; float:left; text-indent:3em;}
+#info_message #if_buzy{ width:360px; height:20px; margin-top:10px; font-size:17px; line-height:20px; color:#333333; float:left; text-indent:2em;}
+#info_message #discount{ width:280px; height:auto; margin-left:40px; font-size:18px; font-weight:bold; line-height:25px; color:#000; float:left; font-family:"Times New Roman",Georgia,Serif;}
+#info_message button{ width:90px; height:30px; margin-left:60px; margin-top:10px; border:0; float:left; position:relative; background-color:#f19149; color:white; font-size:20px;}
+#info_message .intro{ width:320px; height:auto; margin-left:20px; margin-top:20px; font-size:15px; color:#505050; line-height:23px; float:left;}
+
+#dialog{ width:200px; height:125px; top:150px; left:80px; border:solid 1px #909090; position:absolute; display:none;background-image:url(../images/dialog.png);}
+#dialog p{ width:150px; color:#383838; font-size:15px; margin-top:35px; margin-left:20px;}
+#dialog button{ width:90px; height:30px; margin-left:50px; border:0; float:left; background-color:#f19149; color:white; font-size:20px;}
+#info_message button{ width:90px; height:30px; margin-left:50px; border:0; float:left; background-color:#f19149; color:white; font-size:20px;}
+
+#main_slider{width:250px; margin:0; font-family:"微软雅黑";}
+#main_slider #header{width:200px; height:35px; padding-top:15px; padding-left:50px; background-color:#f19149; color:white; line-height:20px; font-size:20px; font-style:bold;}
+#main_slider #content{width:250px; height:485px; overflow-x:hidden; overflow-y:scroll;}
+#main_slider #footer{width:250px; height:80px; overflow-x:hidden; overflow-y:scroll; position:absolute;}
+#main_slider .title{width:240px; height:30px; margin-top:20px; padding-left:10px; font-size:20px; line-height:20px; border-bottom:solid 1px #e0e0e0; float:left; font-weight:bold;}
+#main_slider .state{width:240px; margin-left:10px; margin-top:10px; height:auto; }
+#main_slider .state img{border:0; width:70px; height:70px; margin-top:10px; float:left;}
+#main_slider .state .content{border:0; width:150px; height:auto; margin-top:10px; float:left;}
+#main_slider .state .wenzi{width:150px; height:auto; margin-left:10px; margin-top:5px; font-size:16px; line-height:22px; color:#303030; float:left;}
+#main_slider .state .time{width:130px; height:auto; margin-left:40px; font-size:12px; line-height:20px; color:#303030; float:left;}
+#main_slider #footer button{ width:80px; height:30px; margin-left:20px; margin-top:10px; border:0; float:left; position:relative; background-color:#f19149; color:white; font-size:20px;}
+#main_slider #footer p{margin:0;}
