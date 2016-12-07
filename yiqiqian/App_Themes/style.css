@@ -1,0 +1,98 @@
+﻿*{margin:0; padding:0; font-family: "微软雅黑"; text-decoration:none; }
+body{width:950px; height:auto; margin:auto; padding:0;}
+li{list-style:none;margin:0;padding:0;}
+
+/***********顶部注册***********/
+.zhuce{width:950px; height:25px; margin:auto; padding:0; border-bottom:1px solid #b0b0b0; color:#a0a0a0; padding-top:5px; line-height:20px; font-size:15px;}
+.zhuce a{color:#a0a0a0}
+.HyperLink_zhuce{margin-left:850px; margin-right:10px; color:#808080;}
+/***********顶部导航图***********/
+.header{width:950px;height:140px;float:left;padding-top:10px;}
+
+/***********菜单栏***********/
+.menu{height:50px;width:850px;margin-left:50px;margin-bottom:30px;float:left;}
+.menu a{color:#404040}
+.item{height:40px;width:auto;padding-left:32px;padding-right:32px;border:2px solid white;border-bottom:2px solid #fc852c;margin-top:3px;margin-right:5px;float:left;line-height:35px;font-size:20px;color:#404040;}
+.item:hover {background:#fc852c;color:white;}
+.item:hover a{color:white;}
+.active{background:#fc852c; color:white;}
+.active a{ color:white;}
+
+/***********中部***********/
+.container{width:950px;height:auto;float:left;}
+.prompt_bar{width:96px;height:96px;float:left;margin-top:10px;padding:25px;background:;color:#fc852c;line-height:50px;font-size:40px;font-weight:bold;border:#d30 2px solid;}
+.pic_bar{width:265px;height:150px;float:left;margin-top:10px;border-left:1px;overflow:hidden;}
+.container_left{width:300px;height:auto;margin-left:70px;float:left;}
+.left_bar{width:300px;height:auto;float:left;}
+.container_right{width:460px;height:auto;margin-left:70px;margin-right:20px;float:left;}
+
+/***********底部版权页***********/		
+.bottom{width:950px;height:120px;float:left;margin-top:40px;border-top:3px solid #fc852c;}
+
+
+
+/***********登陆界面***********/
+.login{height:auto;
+	width:350px;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-top:50px;
+	padding-left:50px;
+	border:1px #F30 solid;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	overflow:auto;}
+.login_input{width:200px;
+	height:40px;
+	border:1px solid #F30;
+	text-shadow:none;
+	margin:20px;
+	line-height:30px;}
+input[type="submit"]{width:150px;
+	height:40px;
+	border:#F30 1px solid;
+	margin-left:90px;
+	margin-top:20px;
+	margin-bottom:20px;
+	background:#fc852c;
+	text-align:center;
+	color:#FFF;
+	line-height:35px;
+	font-size:18px;
+	float:left;}
+
+/***********注册***********/
+.register{width:520px;height:auto;margin:auto;}
+.r_label{width:100px;text-align:right;float:left;height:30px;margin-top:30px;padding-top:5px;}
+.r_input{width:250px;height:35px;border:1px solid #f30;float:left;margin-left:20px;margin-top:30px;margin-right:15px;}
+textarea{width:350px;height:80px;border:1px solid #f30;float:left;margin-left:20px;margin-top:30px;margin-right:0;}
+input[type="file"]{width:180px;margin-top:33px;margin-left:20px;margin-bottom:30px;}
+.vali{width:130px;height:35px;margin-top:30px;line-height:35px;font-size:12px;color:red;float:left;border:1px solid white;display:block;}
+.vali_s{height:12px;font-size:12px;width:200px;margin-top:0;margin-left:120px;color:red;display:block;}
+
+/***********店铺详情***********/
+.store_name{ width:460px; height:30px; text-align:center; font-size:23px; font-weight:bold; line-height:30px; color:#939; float:left; }
+.heng{ width:420px; height:1px; border-top:#999 solid 1px; border-bottom:#999 solid 1px; margin:10px 20px 10px 20px; float:left; }
+.container_right p { width:310px; margin-top:10px; margin-left:25px; margin-bottom:0px; color:#666; font-size:18px; font-weight:700; float:left; text-indent:1em; }
+.container_right img{ width:360px; height:200px; margin-top:15px; margin-left:50px; float:left; }
+.sign_num{ width:460px; height:30px; margin-top:20px; font-size:21px; font-weight:bold; line-height:21px; color:#fc852c; float:left; text-align:center;}
+.if_buzy{ width:360px; height:auto;margin-left:50px; margin-top:15px; font-size:18px; line-height:35px; color:#333333; float:left; font-weight:bold; text-align:center; color:black;}
+.discount{ width:380px; height:30px; margin-left:40px; margin-top:5px; font-size:19px; line-height:30spx; color:#000; float:left; font-family:"Times New Roman",Georgia,Serif; text-align:center;}
+.intro{ width:420px; height:auto; margin-left:20px; margin-top:20px; font-size:17px; color:#505050; line-height:35px; float:left;text-indent:2em;}
+.command{width:440px; height:auto; margin-left:10px; margin-top:20px; font-size:17px; color:#505050; line-height:30px; float:left;text-indent:2em;}
+
+/***********管理界面***********/
+select{width:200px;height:35px;border:1px solid #f30;float:left;margin-left:20px;margin-bottom:10px;}
+.m_label{width:300px;text-align:left;float:left;height:25px;margin-top:5px;}
+.m_input{width:360px;height:35px;border:1px solid #c0c0c0;float:left;margin-bottom:10px;color:#909090;font-size:15px;}
+.m_textarea{width:360px;height:80px;border:1px solid #c0c0c0;color:#909090;margin-left:0;margin-top:0;margin-bottom:10px;float:left;}
+.m_active{border:#f30;background:white;}
+.m_intro{width:380px;height:auto;color:#505050;margin-left:5px;margin-bottom:10px;float:left;}
+.m_pic{width:320px;height:180px;border:0;margin-top:0;margin-left:5px;margin-bottom:10px;}
+
+
+
+
+
+
